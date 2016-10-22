@@ -54,6 +54,7 @@ for i in (1...(n)){
 
 // While Loop
 //count number of digits
+/*
 var n = 1234998675
 var count = 0
 while n > 0 {
@@ -61,4 +62,23 @@ while n > 0 {
   n = n / 10
   count += 1
 }
-print (count)
+print (count)*/
+
+// febonacci series
+/*
+var n = 7
+var a = 0
+var b = 1
+var c = 0
+while (a <= n){
+  print(a)
+  c = a + b
+  a = b
+  b = c
+}*/
+
+// looping
+var days = ["M", "T", "W", "T", "F", "S", "S"]
+for day in days {
+  print(day)
+}
